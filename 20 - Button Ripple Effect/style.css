@@ -29,6 +29,27 @@ button {
     position: relative;
 }
 
+button.red {
+    background-color: red;
+    border: 1px red solid;
+}
+
+button.blue {
+    background-color: rgb(44, 183, 230);
+    border: 1px rgb(44, 183, 230) solid;
+}
+
+button.green {
+    background-color: green;
+    border: 1px green solid;
+}
+
+button.yellow {
+    background-color: yellow;
+    border: 1px yellow solid;
+    color: #000;
+}
+
 button:focus {
     outline: none;
 }
